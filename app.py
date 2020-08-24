@@ -19,3 +19,10 @@ def dutch_treat(total_amount, number_of_people):
 print(dutch_treat(1500, 3))
 print(dutch_treat(2000, 3))
 print(dutch_treat(3647, 4))
+
+
+total_amount = int(input())
+number_of_people = int(input())
+
+r = dutch_treat(total_amount, number_of_people)
+print(r)
